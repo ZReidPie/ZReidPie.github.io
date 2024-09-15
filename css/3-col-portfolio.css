@@ -9,3 +9,16 @@ body {
 footer {
 	margin: 50px 0;
 }
+
+/* Flexbox styling to center the list */
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Vertically center the items */
+	align-items: center; /* Horizontally center the items */
+	height: 100vh; /* Full viewport height for demonstration */
+}
+
+.size {
+	font-size: 40px;
+}
